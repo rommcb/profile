@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;500;700&family=Raleway&display=swap');
+
+body {
+    background-color: #f4f4f4;
+    font-family: 'Raleway', sans-serif;
+    color: #1a1c20;
+    line-height: 25px;
+    font-size: 20px;
+}
+
+h1,
+h2, 
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    color: #1a1c20;
+}
+
+h1 {
+    font-size: 48px;
+    line-height: 52px;
+    font-weight: 200;
+}
+
+h2, h3 {
+    font-size: 16;
+    line-height: 20px;
+}
+
+h2 {
+    font-weight: 700;
+}
+
+a {
+    color: #cf7500;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+strong {
+ background-color: #f0a500;
+ color: white;   
+}
+
+.container {
+    margin: auto;
+    width: 800px;
+}
+
+@media (max-width: 960px) {
+    /* For a screen < 960px, this CSS will be read */
+    .container {
+      width: 600px;
+    }
+  }
+  @media (max-width: 720px) {
+    /* For a screen < 720px, this CSS will be read */
+    .container {
+      width: 500px;
+    }
+  }
+  @media (max-width: 540px) {
+    /* For a screen < 540px, this CSS will be read */
+    .container {
+      width: 100%;
+    }
+  }
+
+.card {
+    background: white;                         /* White background */
+    padding: 30px;                             /* Internal space */
+    border-radius: 4px;                        /* Small radius */
+    box-shadow: 0 10px 30px rgba(0,0,0,.1);    /* Light shadow */
+    margin: 10px 0;
+}
+
+.picture-square {
+    border-radius: 2px;
+}
+
+.list-inline > li {
+    display: inline-block;
+    padding: 0px 5px;
+    font-size: 34px;
+}
+
+.list-inline {
+    list-style: none;
+    padding-left: 0px;
+}
+
+.btn-yellow {
+    background-color: #f0a500;
+    color: white;
+    padding: 15px 20px;
+    border-radius: 4px;
+    display: inline-block;
+    margin: 10px 0;
+}
+
+.btn-yellow:hover {
+    background-color: #cf7500;
+    color: white;
+}
