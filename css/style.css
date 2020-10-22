@@ -1,5 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;500;700&family=Raleway&display=swap');
 @import url('components/avatar.css');
+@import url('components/buttons.css');
+
+html, body {
+    height: 100%;
+  }
+  
+  body {
+    display: grid;
+    font-family: Avenir, sans-serif;
+    color: #111;
+  }
+  
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
 
 body {
     background-color: #f4f4f4;
@@ -31,13 +47,20 @@ h2 {
     font-weight: 700;
 }
 
+p {
+    margin-bottom: 35px;
+}
+
 a {
-    color: #cf7500;
     font-weight: 700;
     text-decoration: none;
 }
 
-strong {
+li > a:hover {
+  color: rgb(240, 165, 0);
+}
+
+h1 > strong {
  background-color: #f0a500;
  color: white;   
 }
