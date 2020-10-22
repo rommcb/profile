@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;500;700&family=Raleway&display=swap');
+@import url('components/avatar.css');
 
 body {
     background-color: #f4f4f4;
@@ -43,7 +44,7 @@ strong {
 
 .container {
     margin: auto;
-    width: 800px;
+    width: 700px;
 }
 
 @media (max-width: 960px) {
@@ -75,6 +76,9 @@ strong {
 
 .picture-square {
     border-radius: 2px;
+    width: 100%;
+    height: 450px;
+    object-fit: cover;
 }
 
 .list-inline > li {
